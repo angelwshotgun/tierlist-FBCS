@@ -1,4 +1,7 @@
-<script setup lang="ts">
+<script setup>
+definePageMeta({
+  layout: false,
+})
 </script>
 
 <template>

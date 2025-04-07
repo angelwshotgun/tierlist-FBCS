@@ -4,6 +4,10 @@ import { FilterMatchMode } from '@primevue/core/api';
 import { useToast } from 'primevue/usetoast';
 import { onMounted, ref } from 'vue';
 
+definePageMeta({
+  layout: false,
+})
+
 onMounted(() => {
     ProductService.getProducts().then((data) => (products.value = data));
 });

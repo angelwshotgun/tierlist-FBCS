@@ -1,5 +1,7 @@
 <script setup>
-import FloatingConfigurator from '@/components/FloatingConfigurator.vue';
+definePageMeta({
+  layout: false,
+})
 </script>
 
 <template>
