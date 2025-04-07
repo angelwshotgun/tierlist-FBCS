@@ -7,15 +7,17 @@ import {
   presetUno,
   presetWebFonts,
   transformerDirectives,
-  transformerVariantGroup
-} from 'unocss'
+  transformerVariantGroup,
+} from "unocss";
 
 export default defineConfig({
   theme: {
-    colors: {
-      primary: '#48305f',
-      secondary: '#64477c',
-      accent: '#221a2f',
+    screens: {
+      sm: "576px",
+      md: "768px",
+      lg: "992px",
+      xl: "1200px",
+      "2xl": "1920px",
     },
-  }
-})
+  },
+});

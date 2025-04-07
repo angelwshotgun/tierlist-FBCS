@@ -1,16 +1,17 @@
-<template>
-  <div>home</div>
-  <button @click="signOut">signout</button>
-</template>
-
 <script setup>
-const { signOut, status } = useAuth();
-
-watchEffect(() => {
-  if (status.value === 'authenticated') {
-    console.log('User is authenticated');
-  } else {
-    console.log('User is not authenticated');
-  }
-});
 </script>
+
+<template>
+    <div class="grid grid-cols-12 gap-8">
+        <DashboardStatsWidget />
+
+        <div class="col-span-12 xl:col-span-6">
+            <DashboardRecentSalesWidget />
+            <DashboardBestSellingWidget />
+        </div>
+        <div class="col-span-12 xl:col-span-6">
+            <DashboardRevenueStreamWidget />
+            <DashboardNotificationsWidget />
+        </div>
+    </div>
+</template>
