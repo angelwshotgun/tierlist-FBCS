@@ -42,7 +42,6 @@ export default defineNuxtConfig({
     experimental: {
       websocket: true,
     },
-    preset: 'node',
   },
   css: ["~/assets/styles.scss"],
   primevue: {
