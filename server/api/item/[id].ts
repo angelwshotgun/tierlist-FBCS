@@ -1,4 +1,4 @@
-import prisma from '~/lib/prisma';
+import prisma from '~/plugins/prisma';
 
 export default eventHandler(async (event) => {
   const id = event.context.params?.id;

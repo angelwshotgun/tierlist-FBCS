@@ -5,7 +5,7 @@ import FacebookProvider from 'next-auth/providers/facebook';
 import CredentialsProvider from 'next-auth/providers/credentials';
 import { PrismaAdapter } from '@next-auth/prisma-adapter';
 import { compare } from 'bcrypt';
-import prisma from '~/lib/prisma';
+import prisma from '~/plugins/prisma';
 
 export default NuxtAuthHandler({
   secret: process.env.AUTH_SECRET,

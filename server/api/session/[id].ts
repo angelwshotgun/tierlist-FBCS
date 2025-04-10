@@ -1,4 +1,4 @@
-import prisma from '~/lib/prisma';
+import prisma from '~/plugins/prisma';
 
 export default defineEventHandler(async (event) => {
   const userId = getRouterParam(event, "id"); // Lấy ID từ URL
