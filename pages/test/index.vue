@@ -4,7 +4,7 @@ import { ref, watch } from 'vue';
 import { v4 as uuidv4 } from 'uuid'; // Thư viện tạo UUID
 
 // Kết nối WebSocket
-const { status, data, send } = useWebSocket('ws://localhost:3001/api/websocket');
+const { status, data, send } = useWebSocket('ws://localhost:3000/api/websocket');
 
 const roomId = ref('');
 const isConnected = ref(false);
