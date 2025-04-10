@@ -6,6 +6,7 @@
 
 generator client {
   provider = "prisma-client-js"
+  seed = "prisma/seed.js"
 }
 
 datasource db {
@@ -99,4 +100,16 @@ model Item {
   tierId     String?
   tierList   TierList @relation(fields: [tierListId], references: [id])
   tierListId String
+}
+
+model Character {
+  id       String  @id @default(cuid())
+  name     String
+  tag      String  @unique
+  rarity   Int
+  path     String
+  element  String
+  icon     String?
+  preview  String?
+  portrait String?
 }

@@ -1,5 +1,5 @@
 export default defineNuxtPlugin(nuxtApp => {
-    const ws = new WebSocket("ws://localhost:3000/ws");
+    const ws = new WebSocket("ws://localhost:3001/ws");
   
     ws.onopen = () => console.log("✅ Connected to WebSocket");
     ws.onmessage = (event) => console.log("📩 Message:", event.data);
