@@ -1,0 +1,144 @@
+{
+    "phase": [
+        {
+          "order": 0,
+          "team": "team1",
+          "type": "select",
+          "data": "character",
+          "index": 0
+        },
+        {
+          "order": 1,
+          "team": "team2",
+          "type": "select",
+          "data": "character",
+          "index": 0
+        },
+        {
+          "order": 2,
+          "team": "team2",
+          "type": "select",
+          "data": "character",
+          "index": 1
+        },
+        {
+          "order": 3,
+          "team": "team1",
+          "type": "select",
+          "data": "character",
+          "index": 1
+        },
+        {
+          "order": 4,
+          "team": "team1",
+          "type": "ban",
+          "data": "character",
+          "index": 0
+        },
+        {
+          "order": 5,
+          "team": "team2",
+          "type": "ban",
+          "data": "character",
+          "index": 1
+        },
+        {
+          "order": 6,
+          "team": "team2",
+          "type": "ban",
+          "data": "lightcone",
+          "index": 2
+        },
+        {
+          "order": 7,
+          "team": "team1",
+          "type": "ban",
+          "data": "lightcone",
+          "index": 3
+        },
+        {
+          "order": 8,
+          "team": "team2",
+          "type": "select",
+          "data": "character",
+          "index": 2
+        },
+        {
+          "order": 9,
+          "team": "team1",
+          "type": "select",
+          "data": "character",
+          "index": 2
+        },
+        {
+          "order": 10,
+          "team": "team1",
+          "type": "select",
+          "data": "character",
+          "index": 3
+        },
+        {
+          "order": 11,
+          "team": "team2",
+          "type": "select",
+          "data": "character",
+          "index": 3
+        },
+        {
+          "order": 12,
+          "team": "team2",
+          "type": "select",
+          "data": "character",
+          "index": 4
+        },
+        {
+          "order": 13,
+          "team": "team1",
+          "type": "select",
+          "data": "character",
+          "index": 4
+        },
+        {
+          "order": 14,
+          "team": "team1",
+          "type": "select",
+          "data": "character",
+          "index": 5
+        },
+        {
+          "order": 15,
+          "team": "team2",
+          "type": "select",
+          "data": "character",
+          "index": 5
+        },
+        {
+          "order": 16,
+          "team": "team2",
+          "type": "select",
+          "data": "character",
+          "index": 6
+        },
+        {
+          "order": 17,
+          "team": "team1",
+          "type": "select",
+          "data": "character",
+          "index": 6
+        },
+        {
+          "order": 18,
+          "team": "team1",
+          "type": "select",
+          "data": "character",
+          "index": 7
+        },
+        {
+          "order": 19,
+          "team": "team2",
+          "type": "select",
+          "data": "character",
+          "index": 7
+        }
+      ]
+}
